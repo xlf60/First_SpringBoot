@@ -1,0 +1,582 @@
+2022-11-01 10:48:02.343  INFO 440 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 440 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 10:48:02.366  INFO 440 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 10:48:04.878  INFO 440 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 10:48:04.893  INFO 440 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 10:48:04.895  INFO 440 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 10:48:04.895  INFO 440 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 10:48:05.199  INFO 440 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 10:48:05.199  INFO 440 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2771 ms
+2022-11-01 10:48:05.335  INFO 440 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 10:48:05.631  INFO 440 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 10:48:06.409  INFO 440 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 10:48:06.752  INFO 440 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 10:48:06.789  INFO 440 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 10:48:06.800  INFO 440 --- [main] org.spoto.Application                    : Started Application in 5.362 seconds (JVM running for 8.395)
+2022-11-01 10:48:21.210  INFO 440 --- [http-nio-9899-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-01 10:48:21.211  INFO 440 --- [http-nio-9899-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-01 10:48:21.213  INFO 440 --- [http-nio-9899-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-11-01 19:19:47.071  INFO 21992 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 21992 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 19:19:47.091  INFO 21992 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 19:19:48.930  INFO 21992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 19:19:48.940  INFO 21992 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 19:19:48.940  INFO 21992 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 19:19:48.940  INFO 21992 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 19:19:49.133  INFO 21992 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 19:19:49.134  INFO 21992 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1968 ms
+2022-11-01 19:19:49.290  INFO 21992 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 19:19:49.545  INFO 21992 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 19:19:50.053  INFO 21992 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 19:19:50.238  INFO 21992 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 19:19:50.257  INFO 21992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 19:19:50.266  INFO 21992 --- [main] org.spoto.Application                    : Started Application in 4.075 seconds (JVM running for 6.118)
+2022-11-01 19:20:16.317  INFO 21992 --- [http-nio-9899-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-01 19:20:16.317  INFO 21992 --- [http-nio-9899-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-01 19:20:16.318  INFO 21992 --- [http-nio-9899-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-01 19:20:49.875  INFO 21644 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 21644 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 19:20:49.879  INFO 21644 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 19:20:51.219  INFO 21644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 19:20:51.226  INFO 21644 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 19:20:51.227  INFO 21644 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 19:20:51.227  INFO 21644 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 19:20:51.404  INFO 21644 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 19:20:51.404  INFO 21644 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1454 ms
+2022-11-01 19:20:51.528  INFO 21644 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 19:20:51.697  INFO 21644 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 19:20:52.144  INFO 21644 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 19:20:52.313  INFO 21644 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 19:20:52.332  INFO 21644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 19:20:52.342  INFO 21644 --- [main] org.spoto.Application                    : Started Application in 3.1 seconds (JVM running for 4.758)
+2022-11-01 19:20:56.498  INFO 21644 --- [http-nio-9899-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-01 19:20:56.498  INFO 21644 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-01 19:20:56.498  INFO 21644 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-11-01 19:22:50.083  INFO 19928 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 19928 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 19:22:50.086  INFO 19928 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 19:22:51.446  INFO 19928 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 19:22:51.454  INFO 19928 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 19:22:51.454  INFO 19928 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 19:22:51.454  INFO 19928 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 19:22:51.649  INFO 19928 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 19:22:51.649  INFO 19928 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1498 ms
+2022-11-01 19:22:51.785  INFO 19928 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 19:22:51.962  INFO 19928 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 19:22:52.447  INFO 19928 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 19:22:52.610  INFO 19928 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 19:22:52.634  INFO 19928 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 19:22:52.643  INFO 19928 --- [main] org.spoto.Application                    : Started Application in 3.12 seconds (JVM running for 4.703)
+2022-11-01 19:23:50.419  INFO 15856 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 15856 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 19:23:50.423  INFO 15856 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 19:23:51.591  INFO 15856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 19:23:51.603  INFO 15856 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 19:23:51.604  INFO 15856 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 19:23:51.604  INFO 15856 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 19:23:51.784  INFO 15856 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 19:23:51.784  INFO 15856 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1308 ms
+2022-11-01 19:23:51.885  INFO 15856 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 19:23:52.058  INFO 15856 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 19:23:52.471  INFO 15856 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 19:23:52.633  INFO 15856 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 19:23:52.652  INFO 15856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 19:23:52.663  INFO 15856 --- [main] org.spoto.Application                    : Started Application in 2.755 seconds (JVM running for 4.475)
+2022-11-01 19:23:55.157  INFO 15856 --- [http-nio-9899-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-01 19:23:55.158  INFO 15856 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-01 19:23:55.158  INFO 15856 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-11-01 19:24:53.011  INFO 18072 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 18072 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 19:24:53.052  INFO 18072 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 19:24:54.201  INFO 18072 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 19:24:54.209  INFO 18072 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 19:24:54.209  INFO 18072 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 19:24:54.209  INFO 18072 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 19:24:54.386  INFO 18072 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 19:24:54.386  INFO 18072 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1278 ms
+2022-11-01 19:24:54.489  INFO 18072 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 19:24:54.667  INFO 18072 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 19:24:55.065  INFO 18072 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 19:24:55.222  INFO 18072 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 19:24:55.246  INFO 18072 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 19:24:55.255  INFO 18072 --- [main] org.spoto.Application                    : Started Application in 2.749 seconds (JVM running for 4.346)
+2022-11-01 19:25:04.936  INFO 18072 --- [http-nio-9899-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-01 19:25:04.936  INFO 18072 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-01 19:25:04.937  INFO 18072 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-01 19:26:31.582  INFO 5920 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 5920 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 19:26:31.586  INFO 5920 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 19:26:32.802  INFO 5920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 19:26:32.812  INFO 5920 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 19:26:32.812  INFO 5920 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 19:26:32.812  INFO 5920 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 19:26:32.991  INFO 5920 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 19:26:32.992  INFO 5920 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1357 ms
+2022-11-01 19:26:33.112  INFO 5920 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 19:26:33.293  INFO 5920 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 19:26:33.734  INFO 5920 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 19:26:33.928  INFO 5920 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 19:26:33.987  INFO 5920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 19:26:33.996  INFO 5920 --- [main] org.spoto.Application                    : Started Application in 2.92 seconds (JVM running for 4.429)
+2022-11-01 19:26:44.761  INFO 5920 --- [http-nio-9899-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-01 19:26:44.761  INFO 5920 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-01 19:26:44.762  INFO 5920 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-01 19:28:36.478  INFO 1808 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 1808 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 19:28:36.482  INFO 1808 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 19:28:37.674  INFO 1808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 19:28:37.682  INFO 1808 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 19:28:37.683  INFO 1808 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 19:28:37.683  INFO 1808 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 19:28:37.853  INFO 1808 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 19:28:37.853  INFO 1808 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1314 ms
+2022-11-01 19:28:37.981  INFO 1808 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 19:28:38.214  INFO 1808 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 19:28:38.735  INFO 1808 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 19:28:38.961  INFO 1808 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 19:28:38.982  INFO 1808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 19:28:38.992  INFO 1808 --- [main] org.spoto.Application                    : Started Application in 3.051 seconds (JVM running for 4.599)
+2022-11-01 19:29:14.741  INFO 1808 --- [http-nio-9899-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-01 19:29:14.741  INFO 1808 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-01 19:29:14.742  INFO 1808 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-01 19:32:26.769  INFO 12552 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 12552 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 19:32:26.772  INFO 12552 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 19:32:27.978  INFO 12552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 19:32:27.988  INFO 12552 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 19:32:27.989  INFO 12552 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 19:32:27.990  INFO 12552 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 19:32:28.191  INFO 12552 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 19:32:28.192  INFO 12552 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1345 ms
+2022-11-01 19:32:28.311  INFO 12552 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 19:32:28.492  INFO 12552 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 19:32:28.969  INFO 12552 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 19:32:29.217  INFO 12552 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 19:32:29.247  INFO 12552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 19:32:29.259  INFO 12552 --- [main] org.spoto.Application                    : Started Application in 3.007 seconds (JVM running for 4.639)
+2022-11-01 19:32:41.982  INFO 12552 --- [http-nio-9899-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-01 19:32:41.983  INFO 12552 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-01 19:32:41.984  INFO 12552 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-01 19:33:26.056  INFO 13740 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 13740 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 19:33:26.059  INFO 13740 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 19:33:27.297  INFO 13740 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 19:33:27.306  INFO 13740 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 19:33:27.307  INFO 13740 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 19:33:27.308  INFO 13740 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 19:33:27.482  INFO 13740 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 19:33:27.482  INFO 13740 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1372 ms
+2022-11-01 19:33:27.593  INFO 13740 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 19:33:27.769  INFO 13740 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 19:33:28.184  INFO 13740 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 19:33:28.348  INFO 13740 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 19:33:28.368  INFO 13740 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 19:33:28.377  INFO 13740 --- [main] org.spoto.Application                    : Started Application in 2.846 seconds (JVM running for 4.436)
+2022-11-01 19:36:29.725  INFO 13180 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 13180 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 19:36:29.729  INFO 13180 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 19:36:30.900  INFO 13180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 19:36:30.909  INFO 13180 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 19:36:30.910  INFO 13180 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 19:36:30.910  INFO 13180 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 19:36:31.099  INFO 13180 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 19:36:31.099  INFO 13180 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1324 ms
+2022-11-01 19:36:31.208  INFO 13180 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 19:36:31.379  INFO 13180 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 19:36:31.785  INFO 13180 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 19:36:31.946  INFO 13180 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 19:36:31.964  INFO 13180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 19:36:31.974  INFO 13180 --- [main] org.spoto.Application                    : Started Application in 2.766 seconds (JVM running for 4.239)
+2022-11-01 19:36:36.326  INFO 13180 --- [http-nio-9899-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-01 19:36:36.326  INFO 13180 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-01 19:36:36.327  INFO 13180 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-01 19:37:54.113  INFO 21876 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 21876 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 19:37:54.119  INFO 21876 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 19:37:55.493  INFO 21876 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 19:37:55.502  INFO 21876 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 19:37:55.503  INFO 21876 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 19:37:55.503  INFO 21876 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 19:37:55.693  INFO 21876 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 19:37:55.693  INFO 21876 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1513 ms
+2022-11-01 19:37:55.807  INFO 21876 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 19:37:55.989  INFO 21876 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 19:37:56.419  INFO 21876 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 19:37:56.641  INFO 21876 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 19:37:56.668  INFO 21876 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 19:37:56.679  INFO 21876 --- [main] org.spoto.Application                    : Started Application in 3.141 seconds (JVM running for 4.607)
+2022-11-01 19:38:03.745  INFO 21876 --- [http-nio-9899-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-01 19:38:03.745  INFO 21876 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-01 19:38:03.746  INFO 21876 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-11-01 20:09:47.858  INFO 776 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 776 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 20:09:47.865  INFO 776 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 20:09:49.160  INFO 776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 20:09:49.170  INFO 776 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 20:09:49.171  INFO 776 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 20:09:49.171  INFO 776 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 20:09:49.368  INFO 776 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 20:09:49.369  INFO 776 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1450 ms
+2022-11-01 20:09:49.478  INFO 776 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 20:09:49.714  INFO 776 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 20:09:50.173  INFO 776 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 20:09:50.357  INFO 776 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 20:09:50.379  INFO 776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 20:09:50.396  INFO 776 --- [main] org.spoto.Application                    : Started Application in 3.057 seconds (JVM running for 4.546)
+2022-11-01 20:09:55.000  INFO 776 --- [http-nio-9899-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-01 20:09:55.000  INFO 776 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-01 20:09:55.001  INFO 776 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-01 21:05:48.127  INFO 13968 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 13968 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 21:05:48.130  INFO 13968 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 21:05:49.526  INFO 13968 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 21:05:49.535  INFO 13968 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 21:05:49.536  INFO 13968 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 21:05:49.536  INFO 13968 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 21:05:49.734  INFO 13968 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 21:05:49.735  INFO 13968 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1555 ms
+2022-11-01 21:05:49.866  INFO 13968 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 21:05:50.136  INFO 13968 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 21:05:50.571  INFO 13968 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 21:05:50.750  INFO 13968 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 21:05:50.768  INFO 13968 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 21:05:50.778  INFO 13968 --- [main] org.spoto.Application                    : Started Application in 3.184 seconds (JVM running for 4.691)
+2022-11-01 21:05:54.590  INFO 13968 --- [http-nio-9899-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-01 21:05:54.591  INFO 13968 --- [http-nio-9899-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-01 21:05:54.592  INFO 13968 --- [http-nio-9899-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-01 21:06:16.834  INFO 18044 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 18044 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 21:06:16.838  INFO 18044 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 21:06:18.150  INFO 18044 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 21:06:18.161  INFO 18044 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 21:06:18.162  INFO 18044 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 21:06:18.162  INFO 18044 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 21:06:18.345  INFO 18044 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 21:06:18.345  INFO 18044 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1451 ms
+2022-11-01 21:06:18.446  INFO 18044 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 21:06:18.618  INFO 18044 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 21:06:19.042  INFO 18044 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 21:06:19.204  INFO 18044 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 21:06:19.224  INFO 18044 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 21:06:19.234  INFO 18044 --- [main] org.spoto.Application                    : Started Application in 2.927 seconds (JVM running for 4.47)
+2022-11-01 21:06:23.221  INFO 18044 --- [http-nio-9899-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-01 21:06:23.222  INFO 18044 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-01 21:06:23.222  INFO 18044 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-11-01 21:06:35.322  INFO 9040 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 9040 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 21:06:35.326  INFO 9040 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 21:06:36.577  INFO 9040 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 21:06:36.585  INFO 9040 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 21:06:36.586  INFO 9040 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 21:06:36.586  INFO 9040 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 21:06:36.749  INFO 9040 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 21:06:36.750  INFO 9040 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1363 ms
+2022-11-01 21:06:36.865  INFO 9040 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 21:06:37.055  INFO 9040 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 21:06:37.486  INFO 9040 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 21:06:37.664  INFO 9040 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 21:06:37.682  INFO 9040 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 21:06:37.701  INFO 9040 --- [main] org.spoto.Application                    : Started Application in 2.929 seconds (JVM running for 4.52)
+2022-11-01 21:06:41.458  INFO 9040 --- [http-nio-9899-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-01 21:06:41.458  INFO 9040 --- [http-nio-9899-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-01 21:06:41.459  INFO 9040 --- [http-nio-9899-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-11-01 21:07:06.871  INFO 9084 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 9084 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 21:07:06.875  INFO 9084 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 21:07:08.074  INFO 9084 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 21:07:08.086  INFO 9084 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 21:07:08.087  INFO 9084 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 21:07:08.087  INFO 9084 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 21:07:08.260  INFO 9084 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 21:07:08.261  INFO 9084 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1315 ms
+2022-11-01 21:07:08.361  INFO 9084 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 21:07:08.526  INFO 9084 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 21:07:08.939  INFO 9084 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 21:07:09.101  INFO 9084 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 21:07:09.120  INFO 9084 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 21:07:09.129  INFO 9084 --- [main] org.spoto.Application                    : Started Application in 2.782 seconds (JVM running for 4.378)
+2022-11-01 21:07:11.189  INFO 9084 --- [http-nio-9899-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-01 21:07:11.189  INFO 9084 --- [http-nio-9899-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-01 21:07:11.191  INFO 9084 --- [http-nio-9899-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-01 21:07:32.190  INFO 10904 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 10904 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 21:07:32.193  INFO 10904 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 21:07:33.455  INFO 10904 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 21:07:33.467  INFO 10904 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 21:07:33.468  INFO 10904 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 21:07:33.468  INFO 10904 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 21:07:33.641  INFO 10904 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 21:07:33.642  INFO 10904 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1397 ms
+2022-11-01 21:07:33.748  INFO 10904 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 21:07:33.915  INFO 10904 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 21:07:34.326  INFO 10904 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 21:07:34.482  INFO 10904 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 21:07:34.501  INFO 10904 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 21:07:34.511  INFO 10904 --- [main] org.spoto.Application                    : Started Application in 2.831 seconds (JVM running for 4.372)
+2022-11-01 21:07:37.632  INFO 10904 --- [http-nio-9899-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-01 21:07:37.632  INFO 10904 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-01 21:07:37.633  INFO 10904 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-01 21:10:14.244  INFO 23340 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 23340 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 21:10:14.247  INFO 23340 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 21:10:15.472  INFO 23340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 21:10:15.519  INFO 23340 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 21:10:15.520  INFO 23340 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 21:10:15.520  INFO 23340 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 21:10:15.697  INFO 23340 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 21:10:15.697  INFO 23340 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1382 ms
+2022-11-01 21:10:15.807  INFO 23340 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 21:10:15.981  INFO 23340 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 21:10:16.343  INFO 23340 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 21:10:16.509  INFO 23340 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 21:10:16.528  INFO 23340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 21:10:16.539  INFO 23340 --- [main] org.spoto.Application                    : Started Application in 2.814 seconds (JVM running for 4.626)
+2022-11-01 21:10:18.539  INFO 23340 --- [http-nio-9899-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-01 21:10:18.540  INFO 23340 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-01 21:10:18.541  INFO 23340 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-01 21:42:57.960  INFO 20660 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 20660 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 21:42:57.963  INFO 20660 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 21:42:59.444  INFO 20660 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 21:42:59.456  INFO 20660 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 21:42:59.457  INFO 20660 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 21:42:59.457  INFO 20660 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 21:42:59.645  INFO 20660 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 21:42:59.646  INFO 20660 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1628 ms
+2022-11-01 21:42:59.763  INFO 20660 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 21:42:59.950  INFO 20660 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 21:43:00.455  INFO 20660 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 21:43:00.614  INFO 20660 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 21:43:00.633  INFO 20660 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 21:43:00.641  INFO 20660 --- [main] org.spoto.Application                    : Started Application in 3.258 seconds (JVM running for 4.825)
+2022-11-01 21:44:15.543  INFO 20312 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 20312 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 21:44:15.547  INFO 20312 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 21:44:16.773  INFO 20312 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 21:44:16.781  INFO 20312 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 21:44:16.781  INFO 20312 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 21:44:16.781  INFO 20312 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 21:44:16.956  INFO 20312 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 21:44:16.957  INFO 20312 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1359 ms
+2022-11-01 21:44:17.058  INFO 20312 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 21:44:17.223  INFO 20312 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 21:44:17.639  INFO 20312 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 21:44:17.798  INFO 20312 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 21:44:17.817  INFO 20312 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 21:44:17.826  INFO 20312 --- [main] org.spoto.Application                    : Started Application in 2.807 seconds (JVM running for 4.24)
+2022-11-01 21:47:25.532  INFO 23360 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 23360 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 21:47:25.537  INFO 23360 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 21:47:26.817  INFO 23360 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 21:47:26.824  INFO 23360 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 21:47:26.825  INFO 23360 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 21:47:26.825  INFO 23360 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 21:47:27.007  INFO 23360 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 21:47:27.007  INFO 23360 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1415 ms
+2022-11-01 21:47:27.114  INFO 23360 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 21:47:27.288  INFO 23360 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 21:47:27.697  INFO 23360 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 21:47:27.858  INFO 23360 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 21:47:27.877  INFO 23360 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 21:47:27.886  INFO 23360 --- [main] org.spoto.Application                    : Started Application in 2.978 seconds (JVM running for 4.739)
+2022-11-01 21:48:29.673  INFO 4736 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 4736 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 21:48:29.677  INFO 4736 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 21:48:30.977  INFO 4736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 21:48:30.988  INFO 4736 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 21:48:30.988  INFO 4736 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 21:48:30.989  INFO 4736 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 21:48:31.190  INFO 4736 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 21:48:31.191  INFO 4736 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1453 ms
+2022-11-01 21:48:31.319  INFO 4736 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 21:48:31.537  INFO 4736 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 21:48:32.082  INFO 4736 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 21:48:32.264  INFO 4736 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 21:48:32.287  INFO 4736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 21:48:32.298  INFO 4736 --- [main] org.spoto.Application                    : Started Application in 3.188 seconds (JVM running for 4.875)
+2022-11-01 21:50:49.931  INFO 18728 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 18728 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 21:50:49.945  INFO 18728 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 21:50:51.395  INFO 18728 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 21:50:51.408  INFO 18728 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 21:50:51.409  INFO 18728 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 21:50:51.409  INFO 18728 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 21:50:51.590  INFO 18728 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 21:50:51.591  INFO 18728 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1581 ms
+2022-11-01 21:50:51.696  INFO 18728 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 21:50:51.865  INFO 18728 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 21:50:52.370  INFO 18728 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 21:50:52.548  INFO 18728 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 21:50:52.567  INFO 18728 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 21:50:52.575  INFO 18728 --- [main] org.spoto.Application                    : Started Application in 3.297 seconds (JVM running for 4.942)
+2022-11-01 21:52:52.509  INFO 7564 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 7564 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 21:52:52.512  INFO 7564 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 21:52:53.786  INFO 7564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 21:52:53.798  INFO 7564 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 21:52:53.798  INFO 7564 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 21:52:53.798  INFO 7564 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 21:52:54.020  INFO 7564 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 21:52:54.021  INFO 7564 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1458 ms
+2022-11-01 21:52:54.142  INFO 7564 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 21:52:54.330  INFO 7564 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 21:52:54.773  INFO 7564 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 21:52:54.927  INFO 7564 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 21:52:54.950  INFO 7564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 21:52:54.959  INFO 7564 --- [main] org.spoto.Application                    : Started Application in 3.005 seconds (JVM running for 4.591)
+2022-11-01 21:53:15.093  INFO 22372 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 22372 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 21:53:15.097  INFO 22372 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 21:53:16.380  INFO 22372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 21:53:16.389  INFO 22372 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 21:53:16.390  INFO 22372 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 21:53:16.390  INFO 22372 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 21:53:16.570  INFO 22372 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 21:53:16.571  INFO 22372 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1418 ms
+2022-11-01 21:53:16.692  INFO 22372 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 21:53:16.878  INFO 22372 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 21:53:17.309  INFO 22372 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 21:53:17.501  INFO 22372 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 21:53:17.522  INFO 22372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 21:53:17.566  INFO 22372 --- [main] org.spoto.Application                    : Started Application in 3.009 seconds (JVM running for 4.797)
+2022-11-01 21:53:28.022  INFO 22372 --- [http-nio-9899-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-01 21:53:28.023  INFO 22372 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-01 21:53:28.024  INFO 22372 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-01 22:07:14.047  INFO 5952 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 5952 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 22:07:14.050  INFO 5952 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 22:07:15.320  INFO 5952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 22:07:15.329  INFO 5952 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 22:07:15.330  INFO 5952 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 22:07:15.331  INFO 5952 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 22:07:15.527  INFO 5952 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 22:07:15.527  INFO 5952 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1428 ms
+2022-11-01 22:07:15.658  INFO 5952 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 22:07:15.864  INFO 5952 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 22:07:16.289  INFO 5952 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 22:07:16.473  INFO 5952 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 22:07:16.492  INFO 5952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 22:07:16.506  INFO 5952 --- [main] org.spoto.Application                    : Started Application in 3.014 seconds (JVM running for 4.586)
+2022-11-01 22:07:27.711  INFO 5952 --- [http-nio-9899-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-01 22:07:27.711  INFO 5952 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-01 22:07:27.712  INFO 5952 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-01 22:08:44.432  INFO 2632 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 2632 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 22:08:44.435  INFO 2632 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 22:08:45.624  INFO 2632 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 22:08:45.631  INFO 2632 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 22:08:45.631  INFO 2632 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 22:08:45.632  INFO 2632 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 22:08:45.796  INFO 2632 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 22:08:45.797  INFO 2632 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1311 ms
+2022-11-01 22:08:45.902  INFO 2632 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 22:08:46.080  INFO 2632 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 22:08:46.478  INFO 2632 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 22:08:46.639  INFO 2632 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 22:08:46.658  INFO 2632 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 22:08:46.666  INFO 2632 --- [main] org.spoto.Application                    : Started Application in 2.798 seconds (JVM running for 4.497)
+2022-11-01 22:08:51.048  INFO 2632 --- [http-nio-9899-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-01 22:08:51.048  INFO 2632 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-01 22:08:51.049  INFO 2632 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-01 22:10:02.324  INFO 6664 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 6664 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 22:10:02.328  INFO 6664 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 22:10:03.583  INFO 6664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 22:10:03.595  INFO 6664 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 22:10:03.595  INFO 6664 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 22:10:03.595  INFO 6664 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 22:10:03.768  INFO 6664 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 22:10:03.768  INFO 6664 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1387 ms
+2022-11-01 22:10:03.878  INFO 6664 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 22:10:04.047  INFO 6664 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 22:10:04.457  INFO 6664 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 22:10:04.628  INFO 6664 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 22:10:04.653  INFO 6664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 22:10:04.662  INFO 6664 --- [main] org.spoto.Application                    : Started Application in 2.883 seconds (JVM running for 4.628)
+2022-11-01 22:10:06.644  INFO 6664 --- [http-nio-9899-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-01 22:10:06.644  INFO 6664 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-01 22:10:06.645  INFO 6664 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-01 22:14:08.127  INFO 12148 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 12148 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 22:14:08.132  INFO 12148 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 22:14:09.421  INFO 12148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 22:14:09.434  INFO 12148 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 22:14:09.435  INFO 12148 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 22:14:09.436  INFO 12148 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 22:14:09.679  INFO 12148 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 22:14:09.679  INFO 12148 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1486 ms
+2022-11-01 22:14:09.796  INFO 12148 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 22:14:09.973  INFO 12148 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 22:14:10.420  INFO 12148 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 22:14:10.592  INFO 12148 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 22:14:10.618  INFO 12148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 22:14:10.629  INFO 12148 --- [main] org.spoto.Application                    : Started Application in 3.063 seconds (JVM running for 4.644)
+2022-11-01 22:14:15.008  INFO 12148 --- [http-nio-9899-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-01 22:14:15.008  INFO 12148 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-01 22:14:15.009  INFO 12148 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-01 22:24:54.821  INFO 3420 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 3420 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 22:24:54.825  INFO 3420 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 22:24:56.357  INFO 3420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 22:24:56.369  INFO 3420 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 22:24:56.370  INFO 3420 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 22:24:56.370  INFO 3420 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 22:24:56.561  INFO 3420 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 22:24:56.561  INFO 3420 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1668 ms
+2022-11-01 22:24:56.681  INFO 3420 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 22:24:56.915  INFO 3420 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 22:24:57.386  INFO 3420 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 22:24:57.593  INFO 3420 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 22:24:57.619  INFO 3420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 22:24:57.629  INFO 3420 --- [main] org.spoto.Application                    : Started Application in 3.369 seconds (JVM running for 5.251)
+2022-11-01 22:26:28.292  INFO 4732 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 4732 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 22:26:28.296  INFO 4732 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 22:26:29.486  INFO 4732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 22:26:29.493  INFO 4732 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 22:26:29.494  INFO 4732 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 22:26:29.494  INFO 4732 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 22:26:29.701  INFO 4732 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 22:26:29.701  INFO 4732 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1338 ms
+2022-11-01 22:26:29.818  INFO 4732 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 22:26:29.978  INFO 4732 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 22:26:30.374  INFO 4732 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 22:26:30.535  INFO 4732 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 22:26:30.556  INFO 4732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 22:26:30.565  INFO 4732 --- [main] org.spoto.Application                    : Started Application in 2.79 seconds (JVM running for 4.397)
+2022-11-01 22:26:40.101  INFO 4732 --- [http-nio-9899-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-01 22:26:40.102  INFO 4732 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-01 22:26:40.102  INFO 4732 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-11-01 22:28:35.161  INFO 2192 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 2192 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 22:28:35.164  INFO 2192 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 22:28:36.322  INFO 2192 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 22:28:36.332  INFO 2192 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 22:28:36.333  INFO 2192 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 22:28:36.333  INFO 2192 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 22:28:36.597  INFO 2192 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 22:28:36.597  INFO 2192 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1367 ms
+2022-11-01 22:28:36.713  INFO 2192 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 22:28:36.886  INFO 2192 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 22:28:37.362  INFO 2192 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 22:28:37.578  INFO 2192 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 22:28:37.602  INFO 2192 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 22:28:37.613  INFO 2192 --- [main] org.spoto.Application                    : Started Application in 2.971 seconds (JVM running for 4.628)
+2022-11-01 22:28:41.261  INFO 2192 --- [http-nio-9899-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-01 22:28:41.261  INFO 2192 --- [http-nio-9899-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-01 22:28:41.262  INFO 2192 --- [http-nio-9899-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-01 22:29:08.895  INFO 14484 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 14484 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 22:29:08.898  INFO 14484 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 22:29:10.216  INFO 14484 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 22:29:10.228  INFO 14484 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 22:29:10.229  INFO 14484 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 22:29:10.229  INFO 14484 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 22:29:10.408  INFO 14484 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 22:29:10.408  INFO 14484 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1443 ms
+2022-11-01 22:29:10.529  INFO 14484 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 22:29:10.717  INFO 14484 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 22:29:11.137  INFO 14484 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 22:29:11.316  INFO 14484 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 22:29:11.336  INFO 14484 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 22:29:11.349  INFO 14484 --- [main] org.spoto.Application                    : Started Application in 2.953 seconds (JVM running for 4.491)
+2022-11-01 22:29:13.243  INFO 14484 --- [http-nio-9899-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-01 22:29:13.243  INFO 14484 --- [http-nio-9899-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-01 22:29:13.244  INFO 14484 --- [http-nio-9899-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-01 22:35:22.121  INFO 14176 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 14176 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 22:35:22.125  INFO 14176 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 22:35:23.377  INFO 14176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 22:35:23.387  INFO 14176 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 22:35:23.388  INFO 14176 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 22:35:23.388  INFO 14176 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 22:35:23.569  INFO 14176 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 22:35:23.570  INFO 14176 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1395 ms
+2022-11-01 22:35:23.681  INFO 14176 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 22:35:23.841  INFO 14176 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 22:35:24.329  INFO 14176 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 22:35:24.567  INFO 14176 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 22:35:24.593  INFO 14176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 22:35:24.604  INFO 14176 --- [main] org.spoto.Application                    : Started Application in 3.016 seconds (JVM running for 4.573)
+2022-11-01 22:36:26.222  INFO 8936 --- [main] org.spoto.Application                    : Starting Application using Java 1.8.0_111 on LAPTOP-S8U4A92D with PID 8936 (D:\Java\MyprojectSys\student_management\target\classes started by 21309 in D:\Java\MyprojectSys\student_management)
+2022-11-01 22:36:26.225  INFO 8936 --- [main] org.spoto.Application                    : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 22:36:27.412  INFO 8936 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9899 (http)
+2022-11-01 22:36:27.422  INFO 8936 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9899"]
+2022-11-01 22:36:27.423  INFO 8936 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 22:36:27.423  INFO 8936 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 22:36:27.602  INFO 8936 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-01 22:36:27.603  INFO 8936 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1326 ms
+2022-11-01 22:36:27.710  INFO 8936 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-11-01 22:36:27.874  INFO 8936 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-01 22:36:28.305  INFO 8936 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-01 22:36:28.476  INFO 8936 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9899"]
+2022-11-01 22:36:28.500  INFO 8936 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9899 (http) with context path ''
+2022-11-01 22:36:28.508  INFO 8936 --- [main] org.spoto.Application                    : Started Application in 2.797 seconds (JVM running for 4.231)
+2022-11-01 22:36:39.091  INFO 8936 --- [http-nio-9899-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-01 22:36:39.091  INFO 8936 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-01 22:36:39.092  INFO 8936 --- [http-nio-9899-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms

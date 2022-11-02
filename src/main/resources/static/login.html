@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <title>登录页面</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="MobileOptimized" content="320">
+    <!--Start Style -->
+    <link rel="stylesheet" type="text/css" href="utils/css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="utils/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="utils/css/auth.css">
+</head>
+
+<body>
+<div class="ad-auth-wrapper app">
+    <div class="ad-auth-box">
+        <div class="row align-items-center">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                <div class="ad-auth-img">
+                    <img src="utils/picture/auth-img1.png" alt="">
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                <div class="ad-auth-content">
+                    <form>
+                        <h2><span class="primary">Hello,</span>Welcome!</h2>
+                        <p>Please Enter Your Details Below to Continue</p>
+                        <div class="ad-auth-form">
+                            <div class="ad-auth-feilds mb-30 tsusername">
+                                <input type="text" placeholder="登录账号" class="ad-input" v-model="tname">
+                            </div>
+                            <div class="ad-auth-feilds tspasswd">
+                                <input type="password" placeholder="登录密码" class="ad-input" v-model="tpasswd">
+                            </div>
+                        </div>
+                        <div class="ad-other-feilds">
+                            <div class="ad-checkbox">
+                                <label>
+                                    <input type="checkbox" name="remeber" class="ad-checkbox">
+                                    <span>记住密码</span>
+                                </label>
+                            </div>
+                            <a class="forgot-pws-btn" href="forgot-pws.html">忘记密码?</a>
+                        </div>
+                        <div class="ad-auth-btn">
+                            <a href="javascript:void(0);" class="ad-btn ad-login-member" @click="doLogin()">登录</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="3rd/jquery/jquery.min.js"></script>
+<script src="3rd/bootstrap/js/bootstrap.min.js"></script>
+<script src="3rd/vue2/vue.min.js"></script>
+<script src="3rd/layui/layui.js"></script>
+
+<script>
+    var vv = new Vue({
+        el: '.app',
+        data: {
+            tname:'',
+            tpasswd:''
+        },
+        methods:{
+            //登录
+            doLogin: function () {
+                $.ajax({
+                    url: "dologin" ,
+                    type: "POST",
+                    data: {
+                        "tname":vv.tname,
+                        "tpasswd":vv.tpasswd
+                    },
+                    dataType:"JSON",
+                    success: function (resp) {
+                        if (resp.type) {
+                            //成功
+                            alert("恭喜您登录成功");
+                            window.location.href = "index.html"
+                        } else {
+                            //失败
+                            layer.msg("用户名或密码错误！");
+                        }
+                    }
+                });
+            }
+        }
+    });
+</script>
+</body>
+
+</html>

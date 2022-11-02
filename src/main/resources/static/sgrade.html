@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="zxx">
+<!--<![endif]-->
+<!-- Begin Head -->
+
+<head>
+    <title>SplashDash</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="MobileOptimized" content="320">
+    <!-- Required Start Style -->
+    <link rel="stylesheet" type="text/css" href="utils/css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="utils/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="utils/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="utils/css/icofont.min.css">
+    <!--Page Specific Style -->
+    <link rel="stylesheet" type="text/css" href="utils/css/nice-select.css">
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" type="text/css" href="utils/css/style.css">
+    <link rel="stylesheet" id="theme-change" type="text/css" href="">
+</head>
+
+<body>
+<div class="loader">
+    <div class="spinner">
+        <img src="utils/picture/loader.gif" alt="">
+    </div>
+</div>
+<!-- Main Body -->
+<div class="page-wrapper">
+    <!-- Header Start -->
+    <header class="header-wrapper main-header">
+        <div class="header-inner-wrapper">
+            <div class="logo-wrapper">
+                <a href="index.html" class="admin-logo">
+                    <img src="utils/picture/logo.png" alt="">
+                </a>
+            </div>
+            <div class="header-right">
+                <div class="header-left">
+                    <div class="header-links">
+                        <a href="javascript:void(0);" class="toggle-btn">
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</div>
+
+<div class="page-wrapper">
+    <!-- Sidebar Start -->
+    <aside class="sidebar-wrapper">
+        <div class="side-menu-wrap">
+            <ul class="main-menu">
+                <li>
+                    <a href="index.html">
+                            <span class="icon-menu feather-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-truck"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+                            </span>
+                        <span class="menu-text">
+                                学生列表
+                            </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="customers.html">
+                            <span class="icon-menu feather-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                            </span>
+                        <span class="menu-text">
+                                学生成绩列表
+                            </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                            <span class="icon-menu feather-icon">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tablet"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>                            </span>
+                        <span class="menu-text">
+                                学生课程信息
+                            </span>
+                    </a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="">
+                                    <span class="icon-dash">
+                                    </span>
+                                <span class="menu-text">
+                                        学生信息
+                                    </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tags.html">
+                                    <span class="icon-dash">
+                                    </span>
+                                <span class="menu-text">
+                                        课程信息
+                                    </span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="calendar.html">
+                                   <span class="icon-menu feather-icon">
+                                       <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                                   </span>
+                        <span class="menu-text">
+                                       日历
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+</div>
+<div class="app">
+        <!-- Container Start -->
+        <div class="page-wrapper">
+            <div class="main-content">
+                <!-- Page Title Start -->
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="page-title-wrapper">
+                            <div class="page-title-box">
+                                <h4 class="page-title">学生信息修改：</h4>
+                            </div>
+                            <div class="breadcrumb-list">
+                                <ul>
+                                    <li class="breadcrumb-link">
+                                        <a href="javascript:void(0);"><i class="fas fa-home mr-2"></i>Dashboard</a>
+                                    </li>
+                                    <li class="breadcrumb-link active">学生成绩管理系统</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- From Start -->
+                <div class="from-wrapper">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12"   >
+                            <div class="card">
+                                <div class="card-header" style="padding-top: 37px;padding-bottom: 53px">
+                                    <h4>添加学生 : </h4>
+                                </div>
+                                <div class="card-body" style="padding-bottom: 60px">
+                                    <form>
+                                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                            <div class="form-group">
+                                                <label class="col-form-label">学号</label>
+                                                <input class="form-control" type="text" placeholder="22006031061" v-model="ed.sid">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-form-label">姓名</label>
+                                                <input class="form-control" type="text" placeholder="徐龙飞" v-model="ed.sname">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-form-label">性别</label>
+                                                <input class="form-control" type="text" placeholder="男" v-model="ed.ssex">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-form-label">年龄</label>
+                                                <input class="form-control" type="text" placeholder="18" v-model="ed.sage">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-form-label">年级</label>
+                                                <input class="form-control" type="text" placeholder="大三" v-model="ed.snianji">
+                                            </div>
+                                            <div class="form-group mb-0">
+                                                <button class="btn btn-primary" type="button" @click="streset()">重置</button>
+                                                <button class="btn btn-light" type="button" @click="stuadd()">提交</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4>添加学生课程 : </h4>
+                                </div>
+                                <div class="card-body">
+                                    <form>
+                                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                            <div class="form-group row">
+                                                <label class="col-md-2 col-form-label">学号</label>
+                                                <div class="col-md-10">
+                                                    <input class="form-control" type="text" placeholder="22006031061" v-model="cj.sid">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-md-2 col-form-label">课程名</label>
+                                                <div class="col-md-10">
+                                                    <input class="form-control" type="text" placeholder="java" v-model="cj.cname">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-md-2 col-form-label">成绩/分</label>
+                                                <div class="col-md-10">
+                                                    <input class="form-control" type="text" placeholder="60" v-model="cj.cgrade">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row mb-0">
+                                                <div class="col-sm-10 offset-sm-2">
+                                                    <button class="btn btn-primary" type="button" @click="kcaddreset()">重置</button>
+                                                    <button class="btn btn-light" type="button" @click="kcadd()">提交</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4>删除学生课程 : </h4>
+                                </div>
+                                <div class="card-body">
+                                    <form>
+                                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                            <div class="form-group row">
+                                                <label class="col-md-2 col-form-label">学号</label>
+                                                <div class="col-md-10">
+                                                    <input class="form-control" type="text" placeholder="22006031061" v-model="delcj.delsid">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-md-2 col-form-label">课程名</label>
+                                                <div class="col-md-10">
+                                                    <input class="form-control" type="text" placeholder="java" v-model="delcj.delcname">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row mb-0">
+                                                <div class="col-sm-10 offset-sm-2">
+                                                    <button class="btn btn-primary" type="button" @click="delreset()">重置</button>
+                                                    <button class="btn btn-light" type="button" @click="kcdel()">提交</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Required Script -->
+<script src="utils/js/jquery.min.js"></script>
+<script src="utils/js/bootstrap.min.js"></script>
+<!-- Page Specific Script -->
+<script src="utils/js/nice-select.min.js"></script>
+<!-- Custom Script -->
+<script src="utils/js/custom.js"></script>
+
+<script src="3rd/vue2/vue.min.js"></script>
+<script src="3rd/layui/layui.js"></script>
+<script src="utils/js/page.js"></script>
+
+
+<script>
+    var vv = new Vue({
+        el: '.app',
+        data: {
+            iPage: iPage,
+            ed:{
+                id: 0,
+                sid: '',
+                sname: '',
+                ssex: '',
+                sage: '',
+                snianji :''
+            },
+            cj:{
+                cid:0,
+                cname: '',
+                sid: '',
+                cgrade: ''
+            },
+            delcj:{
+                delcname: '',
+                delsid: ''
+            }
+        },
+        methods:{
+            //添加学生信息
+            stuadd: function(){
+                if (vv.ed.ssex == '男'){
+                    vv.ed.ssex = 1;
+                }else {
+                    vv.ed.ssex = 0;
+                }
+                $.ajax({
+                    url:"student-save",
+                    type:"POST",
+                    dataType:"JSON",
+                    data: vv.ed,
+                    success:function (resp) {
+                        if(resp.type){
+                            //成功
+                            alert("提交成功!");
+                            window.location.href = "sgrade.html";
+                        }else {
+                            layer.msg("请输入正确操作！")
+                        }
+                    },
+                    error:function (resp) {
+                        layer.alert("系统错误");
+                    }
+                })
+            },
+            //学生添加重置
+            streset: function(){
+                this.ed = {
+                    id: 0,
+                    sid: '',
+                    sname: '',
+                    ssex: '',
+                    sage: '',
+                    snianji :''
+                }
+            },
+            //课程添加
+            kcadd: function(){
+                $.ajax({
+                    url:"stugrade-save",
+                    type:"POST",
+                    dataType:"JSON",
+                    data: vv.cj,
+                    success:function (resp) {
+                        if(resp.type){
+                            //成功
+                            alert("提交成功!");
+                            window.location.href = "sgrade.html";
+                        }else {
+                            layer.msg("数据保存失败！")
+                        }
+                    },
+                    error:function (resp) {
+                        layer.alert("系统错误");
+                    }
+                })
+            },
+            //课程添加重置
+            kcaddreset: function(){
+                this.cj = {
+                    cid:0,
+                    cname: '',
+                    sid: '',
+                    cgrade: ''
+                }
+            },
+            //删除
+            kcdel:function(ids){
+                //询问层
+                layer.confirm('是否删除？', {
+                    btn: ['确定','取消'] //按钮
+                }, function(){
+                    //确定
+                    $.ajax({
+                        url:"stugrade-del",
+                        type:"POST",
+                        dataType:"JSON",
+                        data:{
+                            sid: vv.delcj.delsid,
+                            cname: vv.delcj.delcname
+                        },
+                        success:function (resp) {
+                            if(resp.type){
+                                //成功
+                                layer.msg("删除成功");
+                                window.location.href = "sgrade.html";
+                            }else {
+                                layer.msg("数据删除失败！");
+                            }
+                        },
+                        error:function (resp) {
+                            layer.alert("系统错误");
+                        }
+                    });
+                });
+            },
+            //课程删除重置
+            delreset: function(){
+                this.cj = {
+                    cname: '',
+                    sid: '',
+                }
+            },
+        }
+    });
+</script>
+    </div>
+</body>
+
+</html>

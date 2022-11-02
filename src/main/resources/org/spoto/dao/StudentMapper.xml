@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.spoto.dao.StudentMapper">
+
+    <select id="list" resultType="org.spoto.model.Student">
+        select * from student <include refid="listByWhere"></include>
+    </select>
+
+    <select id="listCount" resultType="java.lang.Integer">
+        SELECT COUNT(*) FROM student <include refid="listByWhere"></include>
+    </select>
+
+    <!--    sql语句封装-->
+    <sql id="listByWhere">
+        <where>
+            <if test="sid != null and sid != ''">
+                AND sid LIKE CONCAT('%',#{sid},'%')
+            </if>
+            <if test="sname != null and sname != ''">
+                AND sname LIKE CONCAT('%',#{sname},'%')
+            </if>
+        </where>
+    </sql>
+
+    <insert id="add" parameterType="org.spoto.model.Student">
+        INSERT INTO student(sid, sname, ssex, sage, snianji, sdate) VALUES (#{sid}, #{sname}, #{ssex}, #{sage}, #{snianji},#{sdate})
+
+    </insert>
+
+    <update id="change" parameterType="org.spoto.model.Student">
+        UPDATE student SET sid = #{sid}, sname =  #{sname}, ssex = #{ssex}, sage =  #{sage}, snianji = #{snianji} WHERE id = #{id}
+
+    </update>
+
+    <delete id="del">
+        DELETE FROM student WHERE id IN (
+        <foreach collection="ids" item="id" separator=",">
+            #{id}
+        </foreach>
+        )
+    </delete>
+
+<!--    学生成绩-->
+    <select id="slist" resultType="org.spoto.model.StuGrade">
+        select st.sid,st.sname, c.cname , ac.agrade from student st left join course c on c.sid = st.sid
+                left join achievement ac on c.cid = ac.cid <include refid="slistByWhere"></include>
+    </select>
+
+    <!--    sql语句封装-->
+    <sql id="slistByWhere">
+        <where>
+            <if test="sid != null and sid != ''">
+                AND sid LIKE CONCAT('%',#{sid},'%')
+            </if>
+            <if test="cname != null and cname != ''">
+                AND cname LIKE CONCAT('%',#{cname},'%')
+            </if>
+        </where>
+    </sql>
+
+
+</mapper>

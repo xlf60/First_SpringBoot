@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.spoto.dao.StuGradeMapper">
+
+
+    <!--    学生详细成绩-->
+    <select id="slist" resultType="org.spoto.model.StuGrade">
+        SELECT st.sid,st.sname,c.cname,c.cgrade FROM student st LEFT JOIN course c ON st.sid = c.sid <include refid="slistByWhere"></include>
+    </select>
+    <!--    sql语句封装-->
+    <sql id="slistByWhere">
+        <where>
+            <if test="sid != null and sid != ''">
+                AND st.sid = #{sid}
+            </if>
+            <if test="cname != null and cname != ''">
+                AND c.cname = #{cname}
+            </if>
+        </where>
+    </sql>
+
+    <select id="slistCount" resultType="java.lang.Integer">
+        SELECT COUNT(*) FROM student st left join course c on st.sid = c.sid <include refid="slistByWhere"></include>
+    </select>
+
+    <insert id="add" parameterType="org.spoto.model.StuGrade">
+        INSERT INTO course(sid, cname, cgrade) VALUES (#{sid}, #{cname}, #{cgrade})
+
+    </insert>
+
+    <update id="change" parameterType="org.spoto.model.StuGrade">
+        UPDATE course SET sid = #{sid}, cname =  #{cname}, cgrade = #{cgrade} WHERE id = #{cid}
+
+    </update>
+
+    <delete id="del">
+
+        DELETE FROM course WHERE sid = #{sid} AND cname = #{cname}
+
+    </delete>
+</mapper>
